@@ -1,0 +1,14 @@
+html {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#id {
+	display: hidden;
+}
