@@ -2,13 +2,40 @@ html {
 	box-sizing: border-box;
 }
 
-.container {
+.wrapper {
 	display: flex;
-	align-items: start;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 
-#id {
-	display: hidden;
+.container {
+	width: 50%;
+}
+
+.card {
+	border-radius: 0.5rem;
+	background-color: rgb(226 232 240);
+	padding: 0.5rem 2rem;
+	margin-bottom: 1rem;
+}
+
+.bar {
+	background-color: #f1f1f1;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+input {
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: 1px solid #ccc;
+}
+
+button {
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: 1px solid #ccc;
+	cursor: pointer;
 }
